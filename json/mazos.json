@@ -1,0 +1,39 @@
+{
+    "ID": "Mazos",
+    "2018Trolden1": {
+        "Nombre":"Reno Dragon Priest",
+        "Clase": "Priest",
+        "Cartas": {
+            "Crystalline Oracle": 1,
+            "Mind Vision": 1,
+            "Northshire Cleric": 1,
+            "Potion of Madness": 1,
+            "Power Word: Shield": 1,
+            "Psionic Probe": 1,
+            "Twilight Whelp": 1,
+            "Faerie Dragon": 1,
+            "Netherspite Historian": 1,
+            "Radiant Elemental": 1,
+            "Shadow Word: Pain": 1,
+            "Wyrmrest Agent": 1,
+            "Blackwing Technician": 1,
+            "Dragon Soul": 1,
+            "Mirage Caller": 1,
+            "Shadow Word: Death": 1,
+            "Thoughtsteal": 1,
+            "Twilight Acolyte": 1,
+            "Duskbreaker": 1,
+            "Priest of the Feast": 1,
+            "Shifting Shade": 1,
+            "Blackwing Corruptor": 1,
+            "Drakonid Operative": 1,
+            "Lyra the Sunshard": 1,
+            "Dragonfire Potion": 1,
+            "Entomb": 1,
+            "Reno Jackson": 1,
+            "Free From Amber": 1,
+            "Shadowreaper Anduin": 1,
+            "Mind Control": 1
+        }
+    }
+}
