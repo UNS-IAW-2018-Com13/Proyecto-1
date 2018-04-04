@@ -13,37 +13,23 @@
     <body>
 
         <div class="container">
-            <table class="table table-striped" >
+            <table class="table table-striped">
                 <thead>
                     <tr>
                         <th scope="col">Avatar</th>
                         <th scope="col">Nombre</th>
                         <th scope="col">Puntuacion</th>
-
                     </tr>
                 </thead>
-                <tbody>
-                    <tr>
-                        <td>Avatar J1</td>
-                        <td>Jugador 1</td>
-                        <td>1111</td>
-                    </tr>
-                    <tr>
-                        <td>Avatar J2</td>
-                        <td>Jugador 2</td>
-                        <td>2222</td>
-                    </tr>
-                    <tr>
-                        <td>Avatar J3</td>
-                        <td>Jugador 3</td>
-                        <td>3333</td>
-                    </tr>
+                <tbody id="tabla-jugadores">
+                   
                 </tbody>
             </table>
         </div>
 
 
         <!-- Optional JavaScript -->
+        <input type="button" value="Genera una tabla" onclick="crearTabla()">
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
