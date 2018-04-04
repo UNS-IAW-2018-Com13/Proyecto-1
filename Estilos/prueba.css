@@ -1,0 +1,23 @@
+#imagen {
+    position:absolute;
+    z-index:1;
+    width:100%;
+    height:100%;
+    border:none;
+}
+
+
+#jugadores {
+    position:absolute;
+    border: medium #007bff;
+}
+
+#grupos {
+    position:absolute;
+    border: medium #007bff;
+}
+
+#partidos {
+    position:absolute;
+    border: medium #007bff;
+}
