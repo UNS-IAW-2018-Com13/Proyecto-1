@@ -1,0 +1,11 @@
+{
+    "ID": "Torneos",
+    "T1": {
+            "Nombre": "IAW 2018", 
+            "FechaIn": "12/03/2018",
+            "FechaFin": "05/07/2018",
+            "grupos": "G2018", 
+            "partidos": null
+    }
+   
+}
