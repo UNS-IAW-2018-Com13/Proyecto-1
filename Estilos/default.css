@@ -1,0 +1,9 @@
+body{
+    background-image: url("../Imagenes/Style-Def/Background.jpg");
+    
+}
+
+a{
+    color: black;
+    font-weight: bold;
+}

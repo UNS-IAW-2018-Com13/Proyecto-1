@@ -18,6 +18,7 @@ function generarTabla() {
         
         //Crea un elemento <td>
         celda = document.createElement("td");
+        celda.setAttribute("id", "cabeceras");
         //Crea el contenido de la celda
         contenido = document.createTextNode("portrait"+jugadores.J2018[j].Nombre+".jpg");
         //Agrega el contenido a la celda
