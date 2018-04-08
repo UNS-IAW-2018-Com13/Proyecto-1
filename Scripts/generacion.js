@@ -1,4 +1,4 @@
-function start() {
+function start1() {
     generarTabla();
 }
 

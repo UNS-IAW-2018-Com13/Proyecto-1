@@ -1,4 +1,4 @@
-function start(){
+function start3(){
     generarTabla("tabla_GrupoA");
     generarTabla("tabla_GrupoB");
     generarTabla("tabla_GrupoC");
