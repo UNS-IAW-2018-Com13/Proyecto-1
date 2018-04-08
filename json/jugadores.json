@@ -1,9 +1,0 @@
-{
-    "ID": "Jugadores",
-    "J2018": [
-        {"Nombre": "Trolden", "Puntaje": 0, "Mazos": ["2018Trolden1","2018Trolden2","2018Trolden3"]},
-        {"Nombre": "Amaz", "Puntaje": 0, "Mazos": ["2018Amaz1","2018Amaz2","2018Amaz3"]},
-        {"Nombre": "Kripp", "Puntaje": 0, "Mazos": ["2018Kripp1","2018Kripp2","2018Kripp3"]},
-        {"Nombre": "Savjz", "Puntaje": 0, "Mazos": ["2018Savjz1","2018Savjz2","2018Savjz3"]}
-        ]
-}

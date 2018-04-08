@@ -8,22 +8,44 @@
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
+        <link rel="stylesheet" href="../Estilos/prueba.css" id="estiloBase">
         <title>Grupos</title>
         <script src="../Scripts/generacion3.js"></script>
+        <script src="../Scripts/barraPrincipal.js"></script>
     </head>
-    <body onload="start()">
+    <body onload="start();start3()">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="../index.html">
+                <img src="../Imagenes/Icono.png" width="40" height="40" alt="ICONO" id="iconoBarra">
+            </a>
+
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav mr-auto" id="barraLinks">
+
+
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" id="desplegable">
+
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
 
         <ul class="nav nav-tabs" id="Tabs" role="tablist">
-            <li class="nav-item" onclick="abrirTab('grupoA_Tab','tabla_GrupoA')">
+            <li class="nav-item" onclick="abrirTab('grupoA_Tab', 'tabla_GrupoA')">
                 <a class="nav-link active" id="grupoA_Tab" data-toggle="tab" href="#grupoA" role="tab" aria-controls="grupoA" aria-selected="true">GRUPO A</a>
             </li>
-            <li class="nav-item" onclick="abrirTab('grupoB_Tab','tabla_GrupoB')">
+            <li class="nav-item" onclick="abrirTab('grupoB_Tab', 'tabla_GrupoB')">
                 <a class="nav-link" id="grupoB_Tab" data-toggle="tab" href="#grupoB" role="tab" aria-controls="grupoB" aria-selected="false">GRUPO B</a>
             </li>
-            <li class="nav-item" onclick="abrirTab('grupoC_Tab','tabla_GrupoC')">
+            <li class="nav-item" onclick="abrirTab('grupoC_Tab', 'tabla_GrupoC')">
                 <a class="nav-link" id="grupoC_Tab" data-toggle="tab" href="#grupoC" role="tab" aria-controls="grupoC" aria-selected="false">GRUPO C</a>
             </li>
-            <li class="nav-item" onclick="abrirTab('grupoD_Tab','tabla_GrupoD')">
+            <li class="nav-item" onclick="abrirTab('grupoD_Tab', 'tabla_GrupoD')">
                 <a class="nav-link" id="grupoD_Tab" data-toggle="tab" href="#grupoD" role="tab" aria-controls="grupoD" aria-selected="false">GRUPO D</a>
             </li>
         </ul>
