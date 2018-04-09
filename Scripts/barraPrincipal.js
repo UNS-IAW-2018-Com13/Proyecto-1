@@ -21,7 +21,8 @@ function crearLinks(){
     var liBarra = document.createElement("li");
     $(liBarra).addClass("nav-item");
     var linkBarra = document.createElement("a");
-    $(linkBarra).addClass("nav-link");
+    linkBarra.setAttribute("id", "BarraLinkC");
+    $(linkBarra).addClass("nav-link");    
     linkBarra.setAttribute("href","Jugadores.html");
     var titulo = document.createTextNode("JUGADORES");
     linkBarra.appendChild(titulo);
@@ -31,6 +32,7 @@ function crearLinks(){
     liBarra = document.createElement("li");
     $(liBarra).addClass("nav-item");
     linkBarra = document.createElement("a");
+    linkBarra.setAttribute("id", "BarraLinkC");
     $(linkBarra).addClass("nav-link");
     linkBarra.setAttribute("href","Grupos.html");
     titulo = document.createTextNode("GRUPOS");
@@ -41,6 +43,7 @@ function crearLinks(){
     liBarra = document.createElement("li");
     $(liBarra).addClass("nav-item");
     linkBarra = document.createElement("a");
+    linkBarra.setAttribute("id", "BarraLinkC");
     $(linkBarra).addClass("nav-link");
     linkBarra.setAttribute("href","Partidos.html");
     titulo = document.createTextNode("PARTIDOS");
@@ -51,6 +54,7 @@ function crearLinks(){
     liBarra = document.createElement("li");
     $(liBarra).addClass("nav-item");
     linkBarra = document.createElement("a");
+    linkBarra.setAttribute("id", "BarraLinkC");
     $(linkBarra).addClass("nav-link");
     linkBarra.setAttribute("href","Estadisticas.html");
     titulo = document.createTextNode("ESTADISTICAS");

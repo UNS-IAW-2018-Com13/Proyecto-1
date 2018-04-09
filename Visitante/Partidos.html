@@ -10,12 +10,13 @@
         <link rel="stylesheet" href="../Estilos/Standard.css" id="estiloBase">
 
         <title>Partidos</title>
+        <script src="../Scripts/partidos.js"></script>
         <script src="../Scripts/barraPrincipal.js"></script>
     </head>
-    <body onload="start()">
+    <body onload="start();crearTPartidos()">
         <nav class="navbar navbar-expand-lg navbar-light">
             <a class="navbar-brand" href="../index.html">
-                <img src="../Imagenes/Icono.png" width="40" height="40" alt="ICONO" id="iconoBarra">
+                <img src="../Imagenes/Icons/Icono.png" width="40" height="40" alt="ICONO" id="iconoBarra">
             </a>
 
             <div class="collapse navbar-collapse">
@@ -34,7 +35,7 @@
             </div>
         </nav>
         <div class="container">
-            <table class="table table-striped" >
+            <table class="table table-striped" id="TPartidos">
                 <thead>
                     <tr>
                         <th scope="col">Fecha</th>

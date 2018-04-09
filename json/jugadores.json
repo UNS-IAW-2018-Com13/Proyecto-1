@@ -1,0 +1,9 @@
+{
+    "ID": "Jugadores", 
+    "Jugadores": {         
+            "Trolden": [0,["2018Trolden1","2018Trolden2","2018Trolden3"]],
+            "Amaz": [0, ["2018Amaz1","2018Amaz2","2018Amaz3"]],
+            "Kripp": [0, ["2018Kripp1","2018Kripp2","2018Kripp3"]],
+            "Savjz": [0,["2018Savjz1","2018Savjz2","2018Savjz3"]]
+    }    
+}

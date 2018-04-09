@@ -1,0 +1,17 @@
+{
+    "ID": "Grupos",
+    "G2018":{
+        "tabla_GrupoA": [
+                "Amaz",
+                "Trolden",
+                "Savjz",
+                "Kripp"
+            ],    
+        "tabla_GrupoB": [            
+            "Trolden",
+            "Savjz",
+            "Kripp",
+            "Amaz"
+        ]
+    }    
+}
