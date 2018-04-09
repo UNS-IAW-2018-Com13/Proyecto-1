@@ -1,8 +1,8 @@
-function start() {
+function start1() {
     generarTabla();
 }
 
-function generarTabla() {
+function tablaJugadores() {
     //Crea los elementos <table> y <tbody>
     tableBody = document.getElementsByTagName("tbody")[0];
     
@@ -20,7 +20,10 @@ function generarTabla() {
         celda = document.createElement("td");
         celda.setAttribute("id", "cabeceras");
         //Crea el contenido de la celda
-        contenido = document.createTextNode("portrait"+jugadores.J2018[j].Nombre+".jpg");
+        contenido = document.createElement("img");
+        contenido.setAttribute("src","../Imagenes/Portraits/portrait"+jugadores.J2018[j].Nombre+".jpg");
+        contenido.setAttribute("width", "42");
+        contenido.setAttribute("height", "42");
         //Agrega el contenido a la celda
         celda.appendChild(contenido);
         //Agrega la celda en la fila

@@ -1,0 +1,30 @@
+body{
+    background-image: url("../Imagenes/Style-Def/Background.jpg");
+    color: sienna;
+}
+
+nav{
+    background-color: darkblue;    
+    background-image: url("../Imagenes/Style-Def/Barra.jpg");
+}
+
+#navbarDropdownMenuLink{
+    color: darkgoldenrod;   
+    font-weight: bold;
+    font-style: italic;
+}
+
+a{
+    color: sienna;
+}
+
+#Tabs{
+    color: sienna;   
+    font-weight: bold;
+    font-style: italic;
+}
+
+#BarraLinkC{
+    color: darkgoldenrod;
+    font-weight: bold;
+}

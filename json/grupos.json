@@ -1,7 +1,17 @@
 {
     "ID": "Grupos",
-    "G2018": [
-        {"Grupo": "A", "J1":"Kripp", "J2":"Amaz", "J3":"Trolden", "J4":"Savjz"},
-        {"Grupo": "B", "J1":"Kripp", "J2":"Amaz", "J3":"Trolden", "J4":"Savjz"}
+    "G2018":{
+        "tabla_GrupoA": [
+                "Amaz",
+                "Trolden",
+                "Savjz",
+                "Kripp"
+            ],    
+        "tabla_GrupoB": [            
+            "Trolden",
+            "Savjz",
+            "Kripp",
+            "Amaz"
         ]
+    }    
 }
