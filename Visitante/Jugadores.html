@@ -8,11 +8,11 @@
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-        <link rel="stylesheet" href="../Estilos/prueba.css" id="estiloBase">
+        <link rel="stylesheet" href="../Estilos/Standard.css" id="estiloBase">
         <title>Jugadores</title>
         <script src="../Scripts/barraPrincipal.js"></script>
         <script src="../Scripts/generacion.js"></script>
-        
+
     </head>
     <body onload="start();start1()">
         <nav class="navbar navbar-expand-lg navbar-light">
@@ -50,6 +50,85 @@
 
                 </tbody>
             </table>
+        </div>
+
+
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ventanaJugador">
+            Launch demo modal
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="ventanaJugador" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="tituloVentana">JUGADOR X</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm">
+                                    <img src="" alt="AVATAR"/>
+                                </div>
+                                <div class="col-sm">
+                                    <table class="table">
+                                        <tbody >
+                                            <tr>
+                                                <th>Nombre:</th>
+                                                <td id="nombreJugador">Jugador X</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Puntuacion:</th>
+                                                <td id="puntuacionJugador">9999</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <td scope="col">
+                                            <img src="" alt="MAZO 1" id="imagenMazo1"/>
+                                        </td>
+                                        <th scope="col"> </th>
+                                        <td scope="col">
+                                            <img src="" alt="MAZO 2"id="imagenMazo2"/>
+                                        </td>
+                                        <th scope="col"> </th>
+                                        <td scope="col">
+                                            <img src="" alt="MAZO 3"id="imagenMazo3"/>
+                                        </td>
+                                        <th scope="col"> </th>
+                                    </tr>
+                                     <tr>
+                                        <th scope="col">Carta</th>
+                                        <th scope="col">#</th>
+                                        <th scope="col">Carta</th>
+                                        <th scope="col">#</th>
+                                        <th scope="col">Carta</th>
+                                        <th scope="col">#</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="tablaMazos">
+                                    
+                                </tbody>
+                            </table>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+            </div>
         </div>
 
 
