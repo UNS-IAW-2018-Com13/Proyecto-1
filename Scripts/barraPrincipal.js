@@ -1,6 +1,19 @@
 function start(){
+    var est = obtenerEstilo();
+    if(est !== null){
+        var linkEstilo = document.getElementById("estiloBase");
+        linkEstilo.href = "../Estilos/" + est + ".css";
+    }
     crearLinks();
     crearDesplegable();
+}
+
+function guardarEstilo(idEstilo){
+    localStorage.setItem("Estilo",idEstilo);
+}
+
+function obtenerEstilo(){
+    return localStorage.getItem("Estilo");
 }
 
 function crearLinks(){
@@ -48,21 +61,27 @@ function crearLinks(){
 
 function crearDesplegable(){
     var tituloDesp = document.getElementById("navbarDropdownMenuLink");
-    var titDesp = document.createTextNode("Estilos");
+    var est = obtenerEstilo();
+    var titDesp;
+    if(est !== null){
+        titDesp = document.createTextNode(est);
+    } else {
+        titDesp = document.createTextNode("Estilos");
+    }
     tituloDesp.appendChild(titDesp);
     var desplegable = document.getElementById("desplegable");
     var aOpcion = document.createElement("a");
     aOpcion.setAttribute("class","dropdown-item");
-    aOpcion.setAttribute("onclick","cambiarEstilo('est1','navbarDropdownMenuLink')");
-    var titulo = document.createTextNode("Naxxramas");
+    aOpcion.setAttribute("onclick","cambiarEstilo('Standard','navbarDropdownMenuLink')");
+    var titulo = document.createTextNode("Standard");
     aOpcion.appendChild(titulo);
     desplegable.appendChild(aOpcion);
     
     desplegable = document.getElementById("desplegable");
     aOpcion = document.createElement("a");
     aOpcion.setAttribute("class","dropdown-item");
-    aOpcion.setAttribute("onclick","cambiarEstilo('est2','navbarDropdownMenuLink')");
-    titulo = document.createTextNode("Standard");
+    aOpcion.setAttribute("onclick","cambiarEstilo('Naxxramas','navbarDropdownMenuLink')");
+    titulo = document.createTextNode("Naxxramas");
     
     aOpcion.appendChild(titulo);
     desplegable.appendChild(aOpcion);
@@ -71,16 +90,9 @@ function crearDesplegable(){
 function cambiarEstilo(idEstilo,idBarra){
     var tituloDesp = document.getElementById(idBarra);
     tituloDesp.removeChild(tituloDesp.firstChild);
-    if(idEstilo === "est1"){
-        var linkEstilo = document.getElementById("estiloBase");
-        linkEstilo.href = "../Estilos/prueba_1.css";
-        var titDesp = document.createTextNode("Naxxramas");
-        tituloDesp.appendChild(titDesp);
-    }
-    if(idEstilo === "est2"){
-        var linkEstilo = document.getElementById("estiloBase");
-        linkEstilo.href = "../Estilos/prueba.css";
-        var titDesp = document.createTextNode("Standard");
-        tituloDesp.appendChild(titDesp);
-    }
+    var linkEstilo = document.getElementById("estiloBase");
+    linkEstilo.href = "../Estilos/" + idEstilo + ".css";
+    var titDesp = document.createTextNode(idEstilo);
+    tituloDesp.appendChild(titDesp);
+    guardarEstilo(idEstilo);
 }
