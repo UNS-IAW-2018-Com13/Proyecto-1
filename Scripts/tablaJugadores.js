@@ -26,12 +26,13 @@ function tablaJugadores() {
         
         
          //Crea un elemento <td>
-        celda = document.createElement("button");
-        celda.type = "button";
-        $(celda).addClass("btn");
+        celda = document.createElement("td");
+        Bcelda = document.createElement("button");
+        Bcelda.type = "button";
+        $(Bcelda).addClass("btn");
         //$(celda).addClass("btn-primary");
-        celda.setAttribute("data-toggle","modal");
-        celda.setAttribute("data-target","#ventanaJugador");
+        Bcelda.setAttribute("data-toggle","modal");
+        Bcelda.setAttribute("data-target","#ventanaJugador");
         var m1;
         if (mazos.hasOwnProperty(i+"1")){
            m1= mazos[i+"1"][0]; 
@@ -39,7 +40,7 @@ function tablaJugadores() {
             m1="0";
         }
         
-        celda.setAttribute("onclick","llenarVentana('"+i+"','"+
+        Bcelda.setAttribute("onclick","llenarVentana('"+i+"','"+
                                     jugadores.Jugadores[i][0]+"','"+
                                     m1+"','"+
                                     m1+"','"+
@@ -48,7 +49,8 @@ function tablaJugadores() {
         //Crea el contenido de la celda
         contenido = document.createTextNode(i);
         //Agrega el contenido a la celda
-        celda.appendChild(contenido);
+        Bcelda.appendChild(contenido);
+        celda.appendChild(Bcelda);
         //Agrega la celda en la fila
         fila.appendChild(celda);
         
