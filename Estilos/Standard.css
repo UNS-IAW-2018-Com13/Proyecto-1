@@ -14,6 +14,20 @@ nav{
     font-style: italic;
 }
 
+#ventanaTitulo{
+     background-image: url("../Imagenes/Style-Def/Barra.jpg");
+     color: darkgoldenrod;
+}
+
+#ventanaCuerpo{
+     background-image: url("../Imagenes/Style-Def/Background.jpg");
+     color: sienna;
+}
+
+button{
+    background-color: transparent;
+}
+
 a{
     color: sienna;
 }
