@@ -28,3 +28,51 @@ a{
     color: green;
     font-weight: bold;
 }
+#ventanaTitulo{
+     background-image: url("../Imagenes/Style-Naxx/Barra.jpg");
+     color: darkgoldenrod;
+}
+
+#ventanaCuerpo{
+     background-image: url("../Imagenes/Style-Naxx/Background.jpg");
+     color: green;
+}
+
+button{
+    background-color: transparent;
+    color: green;
+    font-style: italic;
+}
+
+a{
+    color: green;
+}
+#grupoA_Tab{
+    background-color: transparent;
+    color:green;
+}
+
+#grupoB_Tab{
+    background-color: transparent;
+    color:green;
+}
+
+#grupoC_Tab{
+    background-color: transparent;
+    color:green;
+}
+
+#grupoD_Tab{
+    background-color: transparent;
+    color:green;
+}
+#desplegable{
+    background-image: url("../Imagenes/Style-Naxx/Barra.jpg");
+    color: green;
+    font-weight: bold;
+}
+#desplegableI{
+    background-color: transparent;
+    color: green;
+    font-weight: bold;
+}
