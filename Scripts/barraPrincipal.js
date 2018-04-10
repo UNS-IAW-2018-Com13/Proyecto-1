@@ -76,6 +76,7 @@ function crearDesplegable(){
     var desplegable = document.getElementById("desplegable");
     var aOpcion = document.createElement("a");
     aOpcion.setAttribute("class","dropdown-item");
+    aOpcion.id="desplegableI";
     aOpcion.setAttribute("onclick","cambiarEstilo('Standard','navbarDropdownMenuLink')");
     var titulo = document.createTextNode("Standard");
     aOpcion.appendChild(titulo);
@@ -83,6 +84,7 @@ function crearDesplegable(){
     
     desplegable = document.getElementById("desplegable");
     aOpcion = document.createElement("a");
+    aOpcion.id="desplegableI";
     aOpcion.setAttribute("class","dropdown-item");
     aOpcion.setAttribute("onclick","cambiarEstilo('Naxxramas','navbarDropdownMenuLink')");
     titulo = document.createTextNode("Naxxramas");
