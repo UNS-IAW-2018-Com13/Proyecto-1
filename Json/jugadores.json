@@ -1,0 +1,21 @@
+{
+    "ID": "Jugadores", 
+    "Jugadores": {         
+        "Trolden": [0,["Trolden1","Trolden2","Trolden3"]],
+        "Amaz": [0, ["Amaz1","Amaz2","Amaz3"]],
+        "Kripp": [0, ["Kripp1","Kripp2","Kripp3"]],
+        "Savjz": [0,["Savjz1","Savjz2","Savjz3"]],
+        "DayNine": [0,0],
+        "Kibler": [0,0],
+        "Firebat":[0,0],
+        "Trump":[0,0],
+        "Dog":[0,0],
+        "Frodan":[0,0],
+        "Toast":[0,0],
+        "Noxious":[0,0],
+        "Thijs":[0,0],
+        "Kolento":[0,0],
+        "Brode":[0,0],
+        "Forsen":[0,0]    
+    }    
+}

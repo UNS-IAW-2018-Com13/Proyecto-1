@@ -1,0 +1,37 @@
+{
+    "ID": "Partidos",
+    "Partidos": [ 
+        {
+            "fecha": "01/01/2018",
+            "hora":" 00:00",
+            "J1": "Trolden", 
+            "J1P": 0, 
+            "J2": "Amaz",
+            "J2P": 0
+        },
+        {
+            "fecha": "01/01/2018",
+            "hora":" 00:00",
+            "J1": "Trolden", 
+            "J1P": 0, 
+            "J2": "Amaz",
+            "J2P": 0
+        },
+        {
+            "fecha": "01/01/2018",
+            "hora":" 00:00",
+            "J1": "Trolden", 
+            "J1P": 0, 
+            "J2": "Amaz",
+            "J2P": 0
+        },
+        {
+            "fecha": "01/01/2018",
+            "hora":" 00:00",
+            "J1": "Trolden", 
+            "J1P": 0, 
+            "J2": "Amaz",
+            "J2P": 0
+        }
+    ]
+}

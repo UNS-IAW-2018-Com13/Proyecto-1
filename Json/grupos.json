@@ -1,0 +1,29 @@
+{
+    "ID": "Grupos",
+    "G2018":{
+        "tabla_GrupoA": [
+            "Amaz",
+            "Trolden",
+            "Savjz",
+            "Kripp"
+        ],    
+        "tabla_GrupoB": [  
+            "DayNine",
+            "Kibler",
+            "Firebat",
+            "Trump"
+        ],    
+        "tabla_GrupoC": [
+        "Dog",
+        "Frodan",
+        "Toast",
+        "Noxious"
+        ],    
+        "tabla_GrupoD": [
+            "Thijs",
+            "Kolento",
+            "Brode",
+            "Forsen"
+        ]
+    }    
+}
