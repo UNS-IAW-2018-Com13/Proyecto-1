@@ -1,9 +1,30 @@
 body{
-    background: purple;
+    background-image: url("../Imagenes/Style-Naxx/Background.jpg");
     color: green;
 }
 
+nav{
+    background-color: purple;    
+    background-image: url("../Imagenes/Style-Naxx/Barra.jpg");
+}
+
+#navbarDropdownMenuLink{
+    color: green;   
+    font-weight: bold;
+    font-style: italic;
+}
+
 a{
-    color: black;
+    color: green;
+}
+
+#Tabs{
+    color: green;   
+    font-weight: bold;
+    font-style: italic;
+}
+
+#BarraLinkC{
+    color: green;
     font-weight: bold;
 }

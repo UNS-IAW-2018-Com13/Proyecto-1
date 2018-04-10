@@ -15,9 +15,9 @@ function generarTabla(idTabla) {
     //Crea los elementos <table> y <tbody>
     var tableBody = document.getElementById(idTabla);
     
-    var jugadores = JSON.parse('{"ID": "Jugadores","Jugadores": {"Trolden": [0,["2018Trolden1","2018Trolden2","2018Trolden3"]],"Amaz": [0, ["2018Amaz1","2018Amaz2","2018Amaz3"]],"Kripp": [0, ["2018Kripp1","2018Kripp2","2018Kripp3"]],"Savjz": [0,["2018Savjz1","2018Savjz2","2018Savjz3"]]}}');
+    var jugadores = JSON.parse('{"ID": "Jugadores","Jugadores": {"Trolden": [0,["2018Trolden1","2018Trolden2","2018Trolden3"]],"Amaz": [0, ["2018Amaz1","2018Amaz2","2018Amaz3"]],"Kripp": [0, ["2018Kripp1","2018Kripp2","2018Kripp3"]],"Savjz": [0,["2018Savjz1","2018Savjz2","2018Savjz3"]],"DayNine": [0,0],"Kibler": [0,0],"Firebat":[0,0],"Trump":[0,0],"Dog":[0,0],"Frodan":[0,0],"Toast":[0,0],"Noxious":[0,0],"Thijs":[0,0],"Kolento":[0,0],"Brode":[0,0],"Forsen":[0,0]}}');
     
-    var grupos =JSON.parse('{"ID": "Grupos","Grupos":{"tabla_GrupoA": ["Amaz","Trolden","Savjz","Kripp"],"tabla_GrupoB": ["Trolden","Savjz","Kripp","Amaz"]}}');
+    var grupos =JSON.parse('{"ID": "Grupos","Grupos":{"tabla_GrupoA": ["Amaz","Trolden","Savjz","Kripp"],"tabla_GrupoB": ["DayNine","Kibler","Firebat","Trump"],"tabla_GrupoC": ["Dog","Frodan","Toast","Noxious"],"tabla_GrupoD": ["Thijs","Kolento","Brode","Forsen"]}}');
     
     g=grupos.Grupos[idTabla];
         
