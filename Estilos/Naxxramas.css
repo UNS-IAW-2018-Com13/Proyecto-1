@@ -1,78 +1,93 @@
 body{
     background-image: url("../Imagenes/Style-Naxx/Background.jpg");
-    color: green;
+    color: yellowgreen;
+    text-shadow: 0px 0px 10px yellowgreen;
 }
 
-nav{
-    background-color: purple;    
+nav{  
     background-image: url("../Imagenes/Style-Naxx/Barra.jpg");
 }
 
 #navbarDropdownMenuLink{
-    color: green;   
+    color: yellowgreen;
+    text-shadow: 0px 0px 10px yellowgreen;
     font-weight: bold;
     font-style: italic;
 }
 
 a{
-    color: green;
+    color: yellowgreen;
+    text-shadow: 0px 0px 10px yellowgreen;
 }
 
 #Tabs{
-    color: green;   
+    color: yellowgreen;
+    text-shadow: 0px 0px 10px yellowgreen;  
     font-weight: bold;
     font-style: italic;
 }
 
 #BarraLinkC{
-    color: green;
+    color: yellowgreen;
+    text-shadow: 0px 0px 10px yellowgreen;
     font-weight: bold;
 }
 #ventanaTitulo{
-     background-image: url("../Imagenes/Style-Naxx/Barra.jpg");
-     color: darkgoldenrod;
+    background-image: url("../Imagenes/Style-Naxx/Barra.jpg");
+    color: yellowgreen;
+    text-shadow: 0px 0px 10px yellowgreen;
+    font-weight: bold;
 }
 
 #ventanaCuerpo{
-     background-image: url("../Imagenes/Style-Naxx/Background.jpg");
-     color: green;
+    background-image: url("../Imagenes/Style-Naxx/Background.jpg");
+    color: yellowgreen;
+    text-shadow: 0px 0px 10px yellowgreen;
 }
 
 button{
     background-color: transparent;
-    color: green;
+    color: yellowgreen;
+    text-shadow: 0px 0px 10px yellowgreen;
     font-style: italic;
 }
 
 a{
-    color: green;
+    color: yellowgreen;
+    text-shadow: 0px 0px 10px yellowgreen;
 }
 #grupoA_Tab{
     background-color: transparent;
-    color:green;
+    color: yellowgreen;
+    text-shadow: 0px 0px 10px yellowgreen;
 }
 
 #grupoB_Tab{
     background-color: transparent;
-    color:green;
+    color: yellowgreen;
+    text-shadow: 0px 0px 10px yellowgreen;
 }
 
 #grupoC_Tab{
     background-color: transparent;
-    color:green;
+    color: yellowgreen;
+    text-shadow: 0px 0px 10px yellowgreen;
 }
 
 #grupoD_Tab{
     background-color: transparent;
-    color:green;
+    color: yellowgreen;
+    text-shadow: 0px 0px 10px yellowgreen;
 }
 #desplegable{
     background-image: url("../Imagenes/Style-Naxx/Barra.jpg");
-    color: green;
+    color: yellowgreen;
+    text-shadow: 0px 0px 10px yellowgreen;
     font-weight: bold;
 }
 #desplegableI{
     background-color: transparent;
-    color: green;
+    color: yellowgreen;
+    text-shadow: 0px 0px 10px yellowgreen;
     font-weight: bold;
 }

@@ -1,6 +1,26 @@
 {
     "Trolden1": [
         "drd",
-        {"carta1": 1}
-    ]
+        {"carta1": 1}        
+    ],
+    "Trolden2": [
+        "war",
+        {"carta1": 1}        
+    ],
+    "Trolden3": [
+        "mag",
+        {"carta1": 1}        
+    ],
+    "Amaz1": [
+        "drd",
+        {"carta1": 1}        
+    ],
+    "Amaz2": [
+        "war",
+        {"carta1": 1}        
+    ],
+    "Amaz3": [
+        "mag",
+        {"carta1": 1}        
+    ]    
 }
