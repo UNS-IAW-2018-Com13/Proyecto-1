@@ -52,28 +52,22 @@
             </table>
         </div>
 
-
-        <!-- Button trigger modal -->
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ventanaJugador">
-            Launch demo modal
-        </button>
-
         <!-- Modal -->
         <div class="modal fade" id="ventanaJugador" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
-                    <div class="modal-header">
+                    <div class="modal-header" id="ventanaTitulo">
                         <h5 class="modal-title" id="tituloVentana">JUGADOR X</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
-                    <div class="modal-body">
+                    <div class="modal-body" id="ventanaCuerpo">
 
                         <div class="container">
                             <div class="row">
                                 <div class="col-sm">
-                                    <img src="" alt="AVATAR"/>
+                                    <img src="" alt="AVATAR" id="avatarJugador"/>
                                 </div>
                                 <div class="col-sm">
                                     <table class="table">
@@ -129,48 +123,7 @@
 
                 </div>
             </div>
-        <link rel="stylesheet" href="../Estilos/Estandar.css" id="estiloBase">
-        <title>Jugadores</title>
-        <script src="../Scripts/barraPrincipal.js"></script>
-        <script src="../Scripts/tablaJugadores.js"></script>
         
-    </head>
-    <body onload="start();tablaJugadores()">
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="../index.html">
-                <img src="../Imagenes/Icons/Icono.png" width="40" height="40" alt="ICONO" id="iconoBarra">
-            </a>
-
-            <div class="collapse navbar-collapse">
-                <ul class="navbar-nav mr-auto" id="barraLinks">
-
-
-                </ul>
-                <ul class="navbar-nav">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" id="desplegable">
-
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-
-        <div class="container">
-            <table class="table table-striped" >
-                <thead>
-                    <tr>
-                        <th id="cabeceras" scope="col">Avatar</th>
-                        <th id="cabeceras" scope="col">Nombre</th>
-                        <th id="cabeceras" scope="col">Puntuacion</th>
-
-                    </tr>
-                </thead>
-                <tbody >
-
-                </tbody>
-            </table>
         </div>
 
 
