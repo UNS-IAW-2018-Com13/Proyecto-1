@@ -2,11 +2,9 @@ function tablaJugadores() {
     //Crea los elementos <table> y <tbody>
     tableBody = document.getElementsByTagName("tbody")[0];
     
-    data = '{"ID": "Jugadores","Jugadores": {"Trolden": [0,["2018Trolden1","2018Trolden2","2018Trolden3"]],"Amaz": [0, ["2018Amaz1","2018Amaz2","2018Amaz3"]],"Kripp": [0, ["2018Kripp1","2018Kripp2","2018Kripp3"]],"Savjz": [0,["2018Savjz1","2018Savjz2","2018Savjz3"]],"DayNine": [0,0],"Kibler": [0,0],"Firebat":[0,0],"Trump":[0,0],"Dog":[0,0],"Frodan":[0,0],"Toast":[0,0],"Noxious":[0,0],"Thijs":[0,0],"Kolento":[0,0],"Brode":[0,0],"Forsen":[0,0]}}';
-    var jugadores = JSON.parse(data);
+    var jugadores = JSON.parse('{"ID": "Jugadores","Jugadores": {"Trolden": [0,["2018Trolden1","2018Trolden2","2018Trolden3"]],"Amaz": [0, ["2018Amaz1","2018Amaz2","2018Amaz3"]],"Kripp": [0, ["2018Kripp1","2018Kripp2","2018Kripp3"]],"Savjz": [0,["2018Savjz1","2018Savjz2","2018Savjz3"]],"DayNine": [0,0],"Kibler": [0,0],"Firebat":[0,0],"Trump":[0,0],"Dog":[0,0],"Frodan":[0,0],"Toast":[0,0],"Noxious":[0,0],"Thijs":[0,0],"Kolento":[0,0],"Brode":[0,0],"Forsen":[0,0]}}');
     
-    data2 = '{ "Trolden1": [ "drd", {"carta1": 1} ] }';
-    var mazos = JSON.parse(data2);
+    var mazos = JSON.parse('{"Trolden1": ["drd",{"carta1": 1}],"Trolden2": ["war",{"carta1": 1}],"Trolden3": ["mag",{"carta1": 1}],"Amaz1": ["prt",{"carta1": 1}],"Amaz2": ["wlk",{"carta1": 1}],"Amaz3": ["rog",{"carta1": 1}]}');
      
     //Crea todas las celdas
     for(var i in jugadores.Jugadores){
@@ -37,14 +35,25 @@ function tablaJugadores() {
         if (mazos.hasOwnProperty(i+"1")){
            m1= mazos[i+"1"][0]; 
         }else{
-            m1="0";
+           m1="0";
+        }        
+        var m2;
+        if (mazos.hasOwnProperty(i+"2")){
+           m2= mazos[i+"2"][0]; 
+        }else{
+           m2="0";
         }
-        
+        var m3;
+        if (mazos.hasOwnProperty(i+"3")){
+           m3= mazos[i+"3"][0]; 
+        }else{
+           m3="0";
+        }
         Bcelda.setAttribute("onclick","llenarVentana('"+i+"','"+
                                     jugadores.Jugadores[i][0]+"','"+
                                     m1+"','"+
-                                    m1+"','"+
-                                    m1+"')");
+                                    m2+"','"+
+                                    m3+"')");
         
         //Crea el contenido de la celda
         contenido = document.createTextNode(i);
@@ -87,11 +96,11 @@ function llenarVentana(nombre, puntaje,I1,I2,I3){
    mazo1.setAttribute("width", "50");
    mazo1.setAttribute("height", "50");
    var mazo2 = document.getElementById("imagenMazo2")
-   mazo2.setAttribute("src","../Imagenes/icons/"+I1+".png");
+   mazo2.setAttribute("src","../Imagenes/icons/"+I2+".png");
    mazo2.setAttribute("width", "50");
    mazo2.setAttribute("height", "50");
    var mazo3 = document.getElementById("imagenMazo3")
-   mazo3.setAttribute("src","../Imagenes/icons/"+I1+".png");
+   mazo3.setAttribute("src","../Imagenes/icons/"+I3+".png");
    mazo3.setAttribute("width", "50");
    mazo3.setAttribute("height", "50");
  }
